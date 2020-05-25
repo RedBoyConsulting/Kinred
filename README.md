@@ -1,6 +1,8 @@
-# Audio-Signal-Recognition
+# KINRED Speech Recognition Module
 
-This is an Audio Signal Recognition like Cortana, Siri, Alexa or Ok Goole
+This is an Speech Recognition program like Cortana, Siri or Alexa
+
+![2020-05-13 10_58_58-Free Logo Maker - Get Custom Logo Designs in Minutes _ Looka](https://user-images.githubusercontent.com/1688498/82833780-b0f5ec80-9e84-11ea-9625-739b937199b5.png)
 
 ## How does the voice recognition is made of?
 
@@ -38,7 +40,7 @@ A dictionary is required for the speech to text recognition, since it matches th
 
 ## How does voice commands perform actions?
 
-The way is very rudimentary. But Guess What D: ? Today speech recognition platforms like Siri works like this! And I programmed this 8 year ago... !
+The way is very rudimentary. But Guess What? Today speech recognition platforms like Siri works like this! And I programmed this 8 year ago... !
 
 A Case Loop with several Microsoft commands was programmed, it selects the result given by the dictionary in the match process and call the selected process. 
 
