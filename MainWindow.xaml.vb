@@ -125,32 +125,32 @@ Namespace KinectAudioDemo
 			End Try
 
 			Dim grammar = New Choices()
-			grammar.Add("Andres Hernandez Camera on")
-			grammar.Add("Andres Hernandez Camera off")
-			grammar.Add("Andres Hernandez Open Explorer")
-			grammar.Add("Andres Hernandez Close Explorer")
-			grammar.Add("Andres Hernandez Open Chrome")
-			grammar.Add("Andres Hernandez Close Chrome")
-			grammar.Add("Andres Hernandez Open Command Prompt")
-			grammar.Add("Andres Hernandez Close Command Prompt")
-			grammar.Add("Andres Hernandez Open Bloc")
-			grammar.Add("Andres Hernandez Close Bloc")
-			grammar.Add("Andres Hernandez Open Wire Shark")
-			grammar.Add("Andres Hernandez Close Wire Shark")
-			grammar.Add("Andres Hernandez Open Python")
-			grammar.Add("Andres Hernandez Close Python")
-			grammar.Add("Andres Hernandez Open Skype")
-			grammar.Add("Andres Hernandez Close Skype")
-			grammar.Add("Andres Hernandez Open Itunes")
-			grammar.Add("Andres Hernandez Close Itunes")
-			grammar.Add("Goodbye Andres Hernandez")
-			grammar.Add("Andres Hernandez Visit Google")
-			grammar.Add("Andres Hernandez Visit Face Book")
-			grammar.Add("Andres Hernandez Visit Hot Mail")
-			grammar.Add("Andres Hernandez Visit G Mail")
-			grammar.Add("Andres Hernandez Visit You Tube")
-			grammar.Add("Andres Hernandez What Is On The News")
-			grammar.Add("Andres Hernandez Visit X Box")
+			grammar.Add("Kinred Camera on")
+			grammar.Add("Kinred Camera off")
+			grammar.Add("Kinred Open Explorer")
+			grammar.Add("Kinred Close Explorer")
+			grammar.Add("Kinred Open Chrome")
+			grammar.Add("Kinred Close Chrome")
+			grammar.Add("Kinred Open Command Prompt")
+			grammar.Add("Kinred Close Command Prompt")
+			grammar.Add("Kinred Open Bloc")
+			grammar.Add("Kinred Close Bloc")
+			grammar.Add("Kinred Open Wire Shark")
+			grammar.Add("Kinred Close Wire Shark")
+			grammar.Add("Kinred Open Python")
+			grammar.Add("Kinred Close Python")
+			grammar.Add("Kinred Open Skype")
+			grammar.Add("Kinred Close Skype")
+			grammar.Add("Kinred Open Itunes")
+			grammar.Add("Kinred Close Itunes")
+			grammar.Add("Goodbye Kinred")
+			grammar.Add("Kinred Visit Google")
+			grammar.Add("Kinred Visit Face Book")
+			grammar.Add("Kinred Visit Hot Mail")
+			grammar.Add("Kinred Visit G Mail")
+			grammar.Add("Kinred Visit You Tube")
+			grammar.Add("KinredWhat Is On The News")
+			grammar.Add("Kinred Visit X Box")
 
 			Dim gb = New GrammarBuilder With {.Culture = ri.Culture}
 			gb.Append(grammar)
@@ -182,57 +182,57 @@ Namespace KinectAudioDemo
             End If
 
             Select Case e.Result.Text.ToUpperInvariant()
-				Case "ANDRES HERNANDEZ CAMERA ON"
+				Case "KINRED CAMERA ON"
 					Me.kinectColorViewer1.Visibility = Visibility.Visible
-				Case "ANDRES HERNANDEZ CAMERA OFF"
+				Case "KINRED CAMERA OFF"
 					Me.kinectColorViewer1.Visibility = Visibility.Hidden
-				Case "ANDRES HERNANDEZ OPEN EXPLORER"
+				Case "KINRED OPEN EXPLORER"
 					Process.Start("iexplore.exe")
-				Case "ANDRES HERNANDEZ CLOSE EXPLORER"
+				Case "KINRED CLOSE EXPLORER"
 					Process.GetProcessesByName("InternetExplorer")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN CHROME"
+				Case "KINRED OPEN CHROME"
 					Process.Start("chrome.exe")
-				Case "ANDRES HERNANDEZ CLOSE CHROME"
+				Case "KINRED CLOSE CHROME"
 					Process.GetProcessesByName("chrome")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN COMMAND PROMPT"
+				Case "KINRED OPEN COMMAND PROMPT"
 					Process.Start("cmd.exe")
-				Case "ANDRES HERNANDEZ CLOSE COMMAND PROMPT"
+				Case "KINRED CLOSE COMMAND PROMPT"
 					Process.GetProcessesByName("cmd")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN BLOC"
+				Case "KINRED OPEN BLOC"
 					Process.Start("notepad.exe")
-				Case "ANDRES HERNANDEZ CLOSE BLOC"
+				Case "KINRED CLOSE BLOC"
 					Process.GetProcessesByName("notepad")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN WIRE SHARK"
+				Case "KINRED OPEN WIRE SHARK"
 					Process.Start("wireshark.exe")
-				Case "ANDRES HERNANDEZ CLOSE WIRESHARK"
+				Case "KINRED CLOSE WIRESHARK"
 					Process.GetProcessesByName("wireshark")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN PYTHON"
+				Case "KINRED OPEN PYTHON"
 					Process.Start("python.exe")
-				Case "ANDRES HERNANDEZ CLOSE PYTHON"
+				Case "KINRED CLOSE PYTHON"
 					Process.GetProcessesByName("python")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN SKYPE"
+				Case "KINRED OPEN SKYPE"
 					Process.Start("skype.exe")
-				Case "ANDRES HERNANDEZ CLOSE SKYPE"
+				Case "KINRED CLOSE SKYPE"
 					Process.GetProcessesByName("skype")(0).Kill()
-				Case "ANDRES HERNANDEZ OPEN ITUNES"
+				Case "KINRED OPEN ITUNES"
 					Process.Start("itunes.exe")
-				Case "ANDRES HERNANDEZ CLOSE ITUNES"
+				Case "KINRED CLOSE ITUNES"
 					Process.GetProcessesByName("itunes")(0).Kill()
-				Case "ANDRES HERNANDEZ VISIT GOOGLE"
+				Case "KINRED VISIT GOOGLE"
 					System.Diagnostics.Process.Start("https://www.google.com")
-				Case "ANDRES HERNANDEZ VISIT FACE BOOK"
+				Case "KINRED VISIT FACE BOOK"
 					System.Diagnostics.Process.Start("https://www.facebook.com")
-				Case "ANDRES HERNANDEZ VISIT HOT MAIL"
+				Case "KINRED VISIT HOT MAIL"
 					System.Diagnostics.Process.Start("https://www.hotmail.com")
-				Case "ANDRES HERNANDEZ VISIT G MAIL"
+				Case "KINRED VISIT G MAIL"
 					System.Diagnostics.Process.Start("https://www.gmail.com")
-				Case "ANDRES HERNANDEZ VISIT YOU TUBE"
+				Case "KINRED VISIT YOU TUBE"
 					System.Diagnostics.Process.Start("https://www.youtube.com")
-				Case "ANDRES HERNANDEZ WHAT IS ON THE NEWS"
+				Case "KINRED WHAT IS ON THE NEWS"
 					System.Diagnostics.Process.Start("http://www.news.google.com")
-				Case "ANDRES HERNANDEZ VISIT X BOX"
+				Case "KINRED VISIT X BOX"
 					System.Diagnostics.Process.Start("https://www.xbox.com")
-				Case "GOODBYE ANDRES HERNANDEZ"
+				Case "GOODBYE KINRED"
 					Me.Close()
                 Case Else
                     Me.ShowDialog()
