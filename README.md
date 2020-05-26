@@ -6,7 +6,7 @@ This is an Speech Recognition program like Cortana, Siri or Alexa
 
 Download Resources 
 
-Kinect SDK V 1.0 https://sourceforge.net/projects/kinred/files/KinectSDK-v1.0-Setup.exe/download
+Kinect SDK V 1.0 https://sourceforge.net/projects/kinred/
 
 ## How does the voice recognition is made of?
 
