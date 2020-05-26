@@ -4,6 +4,10 @@ This is an Speech Recognition program like Cortana, Siri or Alexa
 
 ![2020-05-13 10_58_58-Free Logo Maker - Get Custom Logo Designs in Minutes _ Looka](https://user-images.githubusercontent.com/1688498/82833780-b0f5ec80-9e84-11ea-9625-739b937199b5.png)
 
+Download Resources 
+
+Kinect SDK V 1.0 https://sourceforge.net/projects/kinred/files/KinectSDK-v1.0-Setup.exe/download
+
 ## How does the voice recognition is made of?
 
 This application was built using 5 components.
